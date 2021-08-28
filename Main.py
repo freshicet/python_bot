@@ -19,6 +19,6 @@ title, url = News.NewsFromAPI()
 # Adding random sleep function to tweet
 sleep(randint(100,36000))
 # Create a tweet
-api.update_status(title + " " + url)
+api.update_status(title + " #security #technology #cybersecurity #infosec #datasecurity #linux #ransomware #phishing #ethicalhacking #cybersecuritytraining #cybersecurityawareness #malware #informationsecurity" + " " + url)
 
 
